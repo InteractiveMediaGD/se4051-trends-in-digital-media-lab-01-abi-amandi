@@ -1,0 +1,17 @@
+Answers to VR Interaction Lab Questions
+
+1. What is gaze-based interaction?
+Gaze-based interaction is an input method in Virtual Reality (VR) where the user's head orientation (or eye tracking) controls a cursor or reticle. It allows users to interact with the virtual environment simply by looking at objects. Selections are typically triggered by a secondary action, such as a physical button press or, more commonly, a "dwell" mechanic where the user holds their gaze on a target for a specific duration.
+
+2. Why is dwell time useful?
+Dwell time is crucial for preventing the "Midas Touch" problem—interaction designs where users accidentally select or activate everything they look at. By requiring a user to sustain their gaze for a set period (e.g., 2 seconds) before an action triggers, the system can distinguish between casual observation (looking around) and intentional interaction (trying to select something). It confirms user intent.
+
+3. How does sensory feedback improve realism?
+Sensory feedback (visual, auditory, and haptic) bridges the gap between the virtual and physical worlds. In real life, every action has a reaction: flipping a switch makes a click sound and provides tactile resistance. In VR, providing immediate feedback (like a sound effect, a color change, or a controller vibration) confirms to the user that their action was registered. this multi-sensory confirmation reduces cognitive load and increases "presence"—the feeling of actually being inside the virtual environment.
+
+4. Which cube felt most immersive and why?
+The cube using the "GazeInteraction" script (which included Audio and Scaling) felt the most immersive.
+Reasoning:
+- Multimodal Feedback: Unlike the other cubes that only acted visually (ColorCube only changed color; OnlyScale only changed size), this cube provided a combination of Visual (color change + scaling) and Auditory (bell sound) feedback.
+- Confirmation: The sound effect provided a clear, distinct confirmation of the completed action, which is more satisfying and reliable than visual cues alone.
+- Agency: The combination of dwell time with a distinct audio-visual reward made the interaction feel deliberate and impactful, mimicking the cause-and-effect nature of real-world interactions.
